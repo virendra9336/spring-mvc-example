@@ -1,4 +1,5 @@
-FROM tomcat:8
+#FROM tomcat:8
+FROM tomcat:8.0.20-jre8
 # Take the war and copy to webapps of tomcat
 ADD settings.xml /usr/local/tomcat/conf/
 ADD tomcat-users.xml /usr/local/tomcat/conf/
