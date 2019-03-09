@@ -41,8 +41,10 @@
 	</dependencies>
 
 	<build>
+	
 		<plugins>
 			<plugin>
+			
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.1</version>
 				<configuration>
@@ -58,6 +60,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>${project.artifactId}</finalName> <!-- added to remove Version from WAR file -->
+		<finalName>root</finalName>
+	<!--	<finalName>${project.artifactId}</finalName>-->
+		 <!-- added to remove Version from WAR file -->
 	</build>
 </project>
