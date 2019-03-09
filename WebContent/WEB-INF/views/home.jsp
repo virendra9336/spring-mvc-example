@@ -7,9 +7,9 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>Hello world!</h1>
+	<h1>Hello world India!</h1>
 
-	<P>The time on the server is ${serverTime}. Welcomes virendra</p>
+	<P>The time on the server is ${serverTime}</p>
 
 	<form action="user" method="post">
 		<input type="text" name="userName"><br> <input
