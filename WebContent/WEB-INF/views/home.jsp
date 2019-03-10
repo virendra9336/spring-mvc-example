@@ -7,7 +7,7 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>India!</h1>
+	<h1>welcome India!</h1>
 
 	<P>The time on the server is ${serverTime}</p>
 
