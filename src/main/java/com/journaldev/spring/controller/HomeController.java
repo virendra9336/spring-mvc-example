@@ -25,7 +25,7 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 
 		String formattedDate = dateFormat.format(date);
-
+		System.out.println("Welcome");
 		model.addAttribute("serverTime", formattedDate);
 
 		return "home";
